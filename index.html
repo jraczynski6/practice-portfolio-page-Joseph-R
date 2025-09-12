@@ -50,6 +50,21 @@
             </tbody>
         </table>
     </section>
+        <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="/submit" method="POST">
+            <label for="Name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <!-- Use text area instead of input -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
 

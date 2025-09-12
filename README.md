@@ -27,6 +27,6 @@ format.
 -intermediate security management
 -intermediate first aid
 
-4 **Contact Form**
+4. **Contact Form**
     Allows visitors to send a message, including fields for the
 visitor's name, email, and message.

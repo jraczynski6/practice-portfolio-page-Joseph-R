@@ -12,7 +12,7 @@ Contains the name and a brief tagline.
 Name - Joseph Raczynski 
 Tagline - Web Developer | Art Given Focus
 
-2. 2. **About Me**  
+2. **About Me**  
    Includes a paragraph about themselves
 
    "I pursue artistic passion in everything I create. I love writing and hiking. My main goals are to learn and grow in this field. Eventually, I'll leave my own mark on it. Thanks for being part of this ride."

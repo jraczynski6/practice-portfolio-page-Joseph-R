@@ -1,0 +1,51 @@
+/* ===== Global Variables ===== */
+/* ===== use --variable: to create a custom varibles in CSS ===== */
+:root {
+    --color-light: #E9E6E7; /* foggy light gray (backgrounds, whitespace) */
+    --color-dark: #5E5653;  /* slate brown-gray (headings, nav, footer) */
+    --color-mid: #7B7F8A;   /* steel gray (text, borders, accents) */
+    --color-warm: #AB978C;  /* muted warm beige (highlights, subtle accents) */
+    --color-cool: #6B7C98;  /* slate blue (links, buttons, calls to action) */
+    
+    --font-main: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+    /* Spacing scale - 1 rem = 16px */
+    --space-xs: 0.5rem; /* 8px  */
+    --space-sm: 1rem;   /* 16px */
+    --space-md: 2rem;   /* 32px */
+    --space-lg: 3rem;   /* 48px */
+}
+
+/* ===== Base Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-light);
+    color: var(--color-mid);
+    font-family: var(--font-main);
+}
+
+/* ===== Layout ===== */
+header {
+    background: var(--color-dark);
+    color: var(--color-light);
+    text-align: center;
+    padding: 2rem;
+}
+
+section {
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: #eee;
+    margin-top: 2rem;
+}

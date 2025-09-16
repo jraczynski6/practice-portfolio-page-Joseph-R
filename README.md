@@ -12,13 +12,16 @@ Contains the name and a brief tagline.
 Name - Joseph Raczynski 
 Tagline - Web Developer | Art Given Focus
 
-2. **About Me**  
-   Includes a paragraph about themselves
+2. **Hero**
+Include large section priming viwers with a call to action
 
-   "I pursue artistic passion in everything I create. I love writing and hiking. My main goals are to learn and grow in this field. Eventually, I'll leave my own mark on it. Thanks for being part of this ride."
+3. **About Me**  
+Includes a paragraph about themselves
 
-3. **A Skills Table**
-    Displays a list of skills or tools with proficiency levels in a table
+"I pursue artistic passion in everything I create. I love writing and hiking. My main goals are to learn and grow in this field. Eventually, I'll leave my own mark on it. Thanks for being part of this ride."
+
+4. **A Skills Table**
+Displays a list of skills or tools with proficiency levels in a table
 format.
 
 -entry level javascript
@@ -27,6 +30,6 @@ format.
 -intermediate security management
 -intermediate first aid
 
-4. **Contact Form**
-    Allows visitors to send a message, including fields for the
+5. **Contact Form**
+Allows visitors to send a message, including fields for the
 visitor's name, email, and message.

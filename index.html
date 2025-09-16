@@ -5,25 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="html, css, javascript, web development">
     <meta name="author" content="Joseph Raczynski">
-    <meta name="description" content="A brief look into who I am and what I bring to the table.">
+    <meta name="description" content="A brief look into the tranquil garden that is my life.">
     <title>Joseph Raczynski's Porfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <!-- Header -->
     <header>
-        <div>
+        <div class="header-content">
             <h1>Joseph Raczynski's Porfolio</h1>
             <p>Web Developer | Art Given Focus</p>
         </div>
     </header>
+
+    <!-- Hero Section -->
     <section id="hero">
         <div class="hero-content">
             <h1>Hello, I am Joseph Raczynski</h1>
             <p>Web Developer | Serene and Sophisticated Design</p>
+            <a href="#about" class="hero-button">Learn More</a>
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about">
             <h2>About Me:</h2>
             <p>"I pursue artistic passion in everything I create. My hobbies are writing and hiking. 
@@ -31,6 +37,7 @@
                 Thanks for being part of this ride."</p>
     </section>
 
+    <!-- Skills Section -->
     <section id="skills">
         <h2>Skills:</h2>
         <table  border="1" width="500" height="200" cellpadding="10" cellspacing="0">
@@ -65,6 +72,7 @@
         </table>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me:</h2>
         <form action="/submit" method="POST" style="border: 2px solid black; padding: 20px; width: 400px;">
@@ -88,6 +96,7 @@
         </form>
     </section>
     
+    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Joseph Raczynski. All rights reserved.</p>
         <p id="delayedMessage" style="display:none;">Only You can see this. Magic is real.</p>
@@ -97,7 +106,7 @@
         document.getElementById('delayedMessage').style.display = 'block';
     }, 15000);
     </script>
-</body>
 
+</body>
 </html>
 

@@ -1,5 +1,4 @@
 /* ===== Global Variables ===== */
-/* ===== use --variable: to create a custom varibles in CSS ===== */
 :root {
     --color-light: #E9E6E7; /* foggy light gray (backgrounds, whitespace) */
     --color-dark: #5E5653;  /* slate brown-gray (headings, nav, footer) */
@@ -24,17 +23,24 @@
 }
 
 body {
-    background-color: var(--color-light);
-    color: var(--color-mid);
-    font-family: var(--font-main);
+  background: var(--color-light);
+  color: var(--color-mid);
+  font-family: var(--font-main);
+  line-height: 1.6;
 }
 
-/* ===== Layout ===== */
+/* ===== Header ===== */
 header {
-    background: var(--color-dark);
-    color: var(--color-light);
-    text-align: center;
-    padding: 2rem;
+  width: 100%;
+  background: var(--color-dark);
+  color: var(--color-light);
+}
+
+.header-content {
+  max-width: 1200px;       /* constrains content width */
+  margin: 0 auto;          /* centers it */
+  padding: var(--space-md) var(--space-sm); /* vertical and horizontal padding */
+  text-align: center;
 }
 
 section {

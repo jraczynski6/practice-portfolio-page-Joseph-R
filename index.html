@@ -24,7 +24,7 @@
     <section id="hero">
         <div class="hero-content">
             <h1>Hello, I am Joseph Raczynski</h1>
-            <p>Web Developer | Serene and Sophisticated Design</p>
+             <p class="hero-tagline">Serene and Sophisticated Design</p>
             <a href="#about" class="hero-button">Learn More</a>
         </div>
     </section>
@@ -34,7 +34,7 @@
         <div class="about-content">
             <h2>About Me:</h2>
             <p>"I pursue artistic passion in everything I create. My hobbies are writing and hiking. 
-                My main goal is to find zen and replicate it in my work.
+                My main goal is to find zen and replicate it in my work. I sculpt entire worlds with my actions.
                 Thanks for visiting here today. I can't wait for us to create something beautiful together."</p>
         </div>        
     </section>
@@ -76,26 +76,28 @@
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Me:</h2>
-        <form action="/submit" method="POST" style="border: 2px solid black; padding: 20px; width: 400px;">
-            <div style="margin-bottom: 15px;">
-                <label for="Name" style="display: block; font-weight: bold; margin-bottom: 5px;">Name:</label>
-                <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; box-sizing: border-box;">
-            </div>
+        <div class="contact-content">   
+            <h2>Contact Me:</h2>
+            <form action="/submit" method="POST" style="border: 2px solid black; padding: 20px; width: 400px;">
+                <div style="margin-bottom: 15px;">
+                    <label for="Name" style="display: block; font-weight: bold; margin-bottom: 5px;">Name:</label>
+                    <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; box-sizing: border-box;">
+                </div>
 
-            <div style="margin-bottom: 15px;">
-                <label for="email" style="display: block; font-weight: bold; margin-bottom: 5px;">Email:</label>
-                <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; box-sizing: border-box;">
-            </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="email" style="display: block; font-weight: bold; margin-bottom: 5px;">Email:</label>
+                    <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; box-sizing: border-box;">
+                </div>
 
-            <div style="margin-bottom: 15px;">
-                <!-- Use text area instead of input -->
-                <label for="message" style="display: block; font-weight: bold; margin-bottom: 5px;">Message:</label>
-                <textarea id="message" name="message" rows="3" required style="width: 100%; padding: 8px; margin-bottom: 15px; box-sizing: border-box;" ></textarea>
-            </div>
+                <div style="margin-bottom: 15px;">
+                    <!-- Use text area instead of input -->
+                    <label for="message" style="display: block; font-weight: bold; margin-bottom: 5px;">Message:</label>
+                    <textarea id="message" name="message" rows="3" required style="width: 100%; padding: 8px; margin-bottom: 15px; box-sizing: border-box;" ></textarea>
+                </div>
 
-            <button type="submit" style="padding: 10px 20px; font-weight: bold; cursor: pointer;">Submit</button>
-        </form>
+                <button type="submit" style="padding: 10px 20px; font-weight: bold; cursor: pointer;">Submit</button>
+            </form>
+        </div>
     </section>
     
     <!-- Footer -->

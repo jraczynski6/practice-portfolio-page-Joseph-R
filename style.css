@@ -38,14 +38,15 @@ header {
 }
 
 section {
-    margin: 2rem 0;
-    padding: 1rem;
+    margin: var(--space-lg) auto;
+    max-width: 800px;
+    padding: var(--space-sm);
 }
 
 footer {
+    background: var(--color-dark);
+    color: var(--color-light);
     text-align: center;
-    padding: 1rem;
-    background: #222;
-    color: #eee;
-    margin-top: 2rem;
+    padding: var(--space-sm);
+    margin-top: var(--space-md);
 }

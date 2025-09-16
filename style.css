@@ -14,7 +14,7 @@
     --space-md: 2rem;   /* 32px */
     --space-lg: 3rem;   /* 48px */
 }
-
+/* ===== Base Styles ===== */
 html {
   scroll-behavior: smooth;
 }
@@ -27,7 +27,6 @@ html, body {
   font-family: var(--font-main);
 }
 
-/* ===== Base Styles ===== */
 * {
     margin: 0;
     padding: 0;
@@ -71,13 +70,47 @@ header {
   color: var(--color-light); /* makes text readable on dark background */
 }
 
+.hero-content {
+  max-width: 1000px;
+  padding: 0 var(--space-sm);
+  margin: 0 auto;
+}
 
+/* ===== Sections ===== */
 section {
     margin: var(--space-lg) auto;
     max-width: 800px;
     padding: var(--space-sm);
 }
 
+.section h2 {
+  font-size: 1.5rem;
+  color: var(--color-dark);
+  margin-bottom: var(--space-sm);
+}
+
+.section p {
+  margin-bottom: var(--space-sm);
+}
+/* ===== Tables ===== */
+table {
+    border-collapse: collapse; /* remove double borders */
+    width: 100%;
+    margin-bottom: var(--space-md);
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid var(--color-mid);
+}
+
+th {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+/* ===== Footer ===== */
 footer {
     background: var(--color-dark);
     color: var(--color-light);

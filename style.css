@@ -317,3 +317,20 @@ footer {
     margin-top: 0;
     box-sizing: border-box;
 }
+
+/* ===== Mobile Styles ===== */
+@media (max-width: 600px) {
+    /* Hero adjustments */
+    #hero h1 { font-size: 2rem; }
+    #hero .hero-tagline { font-size: 1.2rem; }
+
+    /* About section adjustments */
+    #about .about-content { padding: 1rem; }
+
+    /* Contact section adjustments */
+    #contact .contact-content { padding: 1rem; max-width: 90%; }
+    #contact form { padding: 1rem; max-width: 100%; }
+
+    /* Table adjustments */
+    table { font-size: 0.9rem; }
+}

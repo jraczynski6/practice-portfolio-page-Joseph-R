@@ -308,6 +308,30 @@ tbody tr:hover td {
     cursor: pointer;
 }
 
+/* Legend styling */
+#contact form fieldset legend {
+    font-weight: bold;
+    color: var(--color-dark);
+    padding: 0 var(--space-xs);
+    margin-bottom: var(--space-xs);
+    font-size: 1rem;
+}
+
+/* Radio button labels */
+#contact form fieldset label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: var(--space-sm);
+    font-size: 0.95rem;
+    color: var(--color-mid);
+    cursor: pointer;
+}
+
+/* Radio inputs */
+#contact form fieldset input[type="radio"] {
+    margin-right: 0.4rem;
+    accent-color: var(--color-cool);
+}
 /* ===== Footer ===== */
 footer {
     background-color: var(--color-dark);

@@ -173,7 +173,6 @@ header {
     margin: var(--space-sm) auto 0;
     border-radius: 2px; 
 }
-
 /* ===== Sections ===== */
 section {
     margin: var(--space-lg) auto;
@@ -308,6 +307,41 @@ tbody tr:hover td {
     cursor: pointer;
 }
 
+
+/* ===== Contact Form Fieldset ===== */
+#contact form fieldset {
+    border: 2px solid var(--color-cool);
+    border-radius: 5px;
+    padding: var(--space-sm);
+    margin-bottom: var(--space-sm);
+    background-color: var(--color-light);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Legend styling */
+#contact form fieldset legend {
+    font-weight: bold;
+    color: var(--color-dark);
+    padding: 0 var(--space-xs);
+    margin-bottom: var(--space-xs);
+    font-size: 1rem;
+}
+
+/* Radio button labels */
+#contact form fieldset label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: var(--space-sm);
+    font-size: 0.95rem;
+    color: var(--color-mid);
+    cursor: pointer;
+}
+
+/* Radio inputs */
+#contact form fieldset input[type="radio"] {
+    margin-right: 0.4rem;
+    accent-color: var(--color-cool);
+}
 /* ===== Footer ===== */
 footer {
     background-color: var(--color-dark);

@@ -173,7 +173,6 @@ header {
     margin: var(--space-sm) auto 0;
     border-radius: 2px; 
 }
-
 /* ===== Sections ===== */
 section {
     margin: var(--space-lg) auto;
@@ -306,6 +305,17 @@ tbody tr:hover td {
     padding: 10px 20px;
     font-weight: bold;
     cursor: pointer;
+}
+
+
+/* ===== Contact Form Fieldset ===== */
+#contact form fieldset {
+    border: 2px solid var(--color-cool);
+    border-radius: 5px;
+    padding: var(--space-sm);
+    margin-bottom: var(--space-sm);
+    background-color: var(--color-light);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 /* Legend styling */
